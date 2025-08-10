@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boucenna Medicair</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #004d40; /* Green background */
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #003830;
+            padding: 0.5rem 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 5rem 10% 2rem; /* extra top padding for fixed nav */
+        }
+        h2 {
+            color: #ffd700; /* gold accent for titles */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 0.3rem 0;
+        }
+        .images-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .images-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+            background-color: #004d40; 
+            padding: 5px;
+        }
+        .contact-info p {
+            margin: 0.3rem 0;
+        }
+        footer {
+            background-color: #003830;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why">Pourquoi nous</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#fleet">Flotte</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Boucenna Medicair</h1>
+        <p>Spécialisé dans le transport médical terrestre et aérien</p>
+    </header>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <h3>Transport terrestre</h3>
+        <p>Nous accompagnons les patients en cas d’hospitalisation, d’urgence, pour les transferts et les consultations. Transport assis, allongé ou semi-allongé sur tout le territoire national avec véhicules autorisés et respectant les protocoles d’hygiène (VSL, Ambulance A, Ambulance B).</p>
+        
+        <h3>Transport aérien</h3>
+        <p>Nous assurons le rapatriement médical par avion-ambulance ou hélicoptère, en urgence ou programmé, vers et depuis l’étranger. Nous prenons en charge les patients nécessitant une surveillance médicale et un équipement adapté.</p>
+    </section>
+
+    <section id="why">
+        <h2>Pourquoi nous choisir ?</h2>
+        <p>Boucenna Medicair est l’un des leaders de l’assistance médicale en Algérie, grâce à une équipe professionnelle expérimentée et des moyens matériels et humains optimisés pour offrir la meilleure prise en charge.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Destinations Spéciales</h2>
+        <ul>
+            <li>Istanbul - Turquie</li>
+            <li>Bruxelles - Belgique</li>
+            <li>Paris - France</li>
+            <li>Tunisie - Afrique</li>
+            <li>New York - États-Unis</li>
+        </ul>
+        <div class="images-grid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Blue_Mosque_Istanbul_Turkey.jpg" alt="Istanbul">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Grand_Place_Brussels_Belgium.jpg" alt="Brussels">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" alt="Paris">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Sidi_Bou_Said_Tunisia.jpg" alt="Tunisia">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Manhattan_skyline.jpg" alt="New York">
+        </div>
+    </section>
+
+    <section id="fleet">
+        <h2>Notre flotte</h2>
+        <ul>
+            <li>Avion FALCON900 EX</li>
+            <li>Avion HAWKER1000B ELIXIR</li>
+            <li>Ambulance médicalisée catégorie A-B-C-VSL</li>
+            <li>Citation EAGLE 2</li>
+        </ul>
+        <div class="images-grid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Dassault_Falcon_900EX.jpg" alt="FALCON900 EX">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Hawker_1000B.jpg" alt="HAWKER1000B ELIXIR">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Ambulance_interior.jpg" alt="Ambulance médicalisée">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Citation_Eagle_2.jpg" alt="Citation EAGLE 2">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <p><strong>Adresse :</strong> Promotion bessa-Ouled Fayet / cité zerouki-Bouira / cité711 aimoulmene setif / cherchell</p>
+            <p><strong>Site Web :</strong> <a href="http://www.boucennameedicair.com" style="color:#ffd700;">www.boucennameedicair.com</a></p>
+            <p><strong>Email :</strong> <a href="mailto:transmalades.boucenna@gmail.com" style="color:#ffd700;">transmalades.boucenna@gmail.com</a></p>
+            <p><strong>Téléphone :</strong> 0662.26.87.86 / 0662.37.67.03</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Boucenna Medicair - Transport médical terrestre et aérien</p>
+    </footer>
+
+</body>
+</html>
